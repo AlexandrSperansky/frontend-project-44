@@ -26,5 +26,9 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js"
+  },
+  "devDependencies": {
+    "eslint-plugin-jest": "^27.1.5",
+    "jest": "^29.3.1"
   }
 }
