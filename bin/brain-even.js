@@ -19,3 +19,4 @@ const initGameEven = () => {
 };
 
 initGameEven();
+export default initGameEven;
