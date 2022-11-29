@@ -1,24 +1,24 @@
-import playGame from "../index.js";
+import playGame from '../index.js';
 
-const getRandomNum = (min = 1, max = 100) => Math.floor(Math.random() * ((max - min) + 1)) + min;
+const getRandomNum = (min = 1, max = 100) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const rule = 'What number is missing in the progression?';
 const lengthProgression = getRandomNum(7, 11);
 
 const getProgression = () => {
-    const startProgression = getRandomNum();
-    const stepOfProgression = getRandomNum(1, 10);
-    const progression = [startProgression];
-    let currentNumOfProgression = startProgression;
-    for (let i = 1; i <= lengthProgression; i += 1) {
-      currentNumOfProgression += stepOfProgression;
-      progression.push(currentNumOfProgression);
-    }
-    return progression;
+  const startProgression = getRandomNum();
+  const stepOfProgression = getRandomNum(1, 10);
+  const progression = [startProgression];
+  let currentNumOfProgression = startProgression;
+  for (let i = 1; i <= lengthProgression; i += 1) {
+    currentNumOfProgression += stepOfProgression;
+    progression.push(currentNumOfProgression);
+  }
+  return progression;
 };
 
 const getQuestionAndAnswer = () => {
-    const progression = getProgression();
+  const progression = getProgression();
   const indexOfHiddenNum = getRandomNum(0, lengthProgression - 1);
   const answer = String(progression[indexOfHiddenNum]);
   progression[indexOfHiddenNum] = '..';
@@ -30,7 +30,7 @@ const getQuestionAndAnswer = () => {
 };
 
 const initGameProgression = () => {
-    playGame(rule, getQuestionAndAnswer);
+  playGame(rule, getQuestionAndAnswer);
 };
 
 initGameProgression();
