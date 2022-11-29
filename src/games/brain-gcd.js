@@ -14,7 +14,7 @@ const getQuestionAndAnswer = () => {
     minNumber = number1;
   }
   let answer;
-  for (let i = 0; i < greatestNumber; i += i) {
+  for (let i = 0; i < greatestNumber; i += 1) {
     if (number1 % i === 0 && number2 % i === 0) {
       answer = `${i}`;
     }
@@ -23,7 +23,6 @@ const getQuestionAndAnswer = () => {
     }
   }
   const question = `${number1} ${number2}`;
-
   return [question, answer];
 };
 const initGamegcd = () => {
