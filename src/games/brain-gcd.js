@@ -30,5 +30,4 @@ const initGamegcd = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-initGamegcd();
 export default initGamegcd;

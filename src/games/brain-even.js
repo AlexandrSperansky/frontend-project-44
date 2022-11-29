@@ -15,5 +15,4 @@ const initGameEven = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-initGameEven();
 export default initGameEven;

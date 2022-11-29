@@ -25,5 +25,4 @@ const initGameCalc = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-initGameCalc();
 export default initGameCalc;

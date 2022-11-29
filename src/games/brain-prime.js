@@ -23,6 +23,4 @@ const initGamePrime = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-initGamePrime();
-
 export default initGamePrime;

@@ -33,6 +33,5 @@ const initGameProgression = () => {
   playGame(rule, getQuestionAndAnswer);
 };
 
-initGameProgression();
 
 export default initGameProgression;
