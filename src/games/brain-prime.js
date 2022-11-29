@@ -6,7 +6,7 @@ const getRandomNum = (min = 2, max = 50) => Math.floor(Math.random() * (max - mi
 
 const isPrime = (randomNumber) => {
   if (randomNumber <= 1) return false;
-  for (let i = 2; i <= randomNumber / 2; i++) {
+  for (let i = 2; i <= randomNumber / 2; i += i) {
     if (randomNumber % i === 0) return false;
   }
   return true;
