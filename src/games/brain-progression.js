@@ -2,7 +2,7 @@ import playGame from "../index.js";
 
 const getRandomNum = (min = 1, max = 100) => Math.floor(Math.random() * ((max - min) + 1)) + min;
 
-const rule = 'What number is missing in this progression?';
+const rule = 'What number is missing in the progression?';
 const lengthProgression = getRandomNum(7, 11);
 
 const getProgression = () => {
