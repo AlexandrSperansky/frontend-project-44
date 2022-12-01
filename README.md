@@ -1,8 +1,9 @@
 :### Hexlet tests and linter status:
 <a href="https://codeclimate.com/github/AlexandrSperansky/frontend-project-44/maintainability"><img src="https://api.codeclimate.com/v1/badges/b7bba25769318a4d3405/maintainability" /></a>
 [![Actions Status](https://github.com/AlexandrSperansky/frontend-project-44/workflows/hexlet-check/badge.svg)](https://github.com/AlexandrSperansky/frontend-project-44/actions)
-brain-even: https://asciinema.org/a/aq5s54TIeJQ7GDaoXsNb9EnI7
-brain-calc: https://asciinema.org/a/WJHxt6U463oGl8UdHmwyo3WCZ
-brain-gcd: https://asciinema.org/a/Tabp0oLqvbTCXRbm5y4hdrfni
-brain-progression: https://asciinema.org/a/7uRxh2uaX4Mfs165VVoG0yr4E
-brain-prime: https://asciinema.org/a/59gVz4wTKjxqZQHvYZb5xqwq9
+
+brain-even: <a href="https://asciinema.org/a/540146" target="_blank"><img src="https://asciinema.org/a/540146.svg" /></a>
+brain-calc: <a href="https://asciinema.org/a/540582" target="_blank"><img src="https://asciinema.org/a/540582.svg" /></a>
+brain-gcd: <a href="https://asciinema.org/a/Tabp0oLqvbTCXRbm5y4hdrfni" target="_blank"><img src="https://asciinema.org/a/Tabp0oLqvbTCXRbm5y4hdrfni.svg" /></a>
+brain-progression: <a href="https://asciinema.org/a/541038" target="_blank"><img src="https://asciinema.org/a/541038.svg" /></a>
+brain-prime: <a href="https://asciinema.org/a/59gVz4wTKjxqZQHvYZb5xqwq9" target="_blank"><img src="https://asciinema.org/a/59gVz4wTKjxqZQHvYZb5xqwq9.svg" /></a>
