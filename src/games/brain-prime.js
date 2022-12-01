@@ -5,8 +5,7 @@ const rule = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 const getRandomNum = (min = 2, max = 50) => Math.floor(Math.random() * (max - min + 1)) + min;
 
 const isPrime = (randomNumber) => {
-  if (randomNumber <= 1) return false;
-  for (let i = 2; i <= randomNumber / 2; i += i) {
+  for (let i = 2; i < randomNumber; i += 1) {
     if (randomNumber % i === 0) return false;
   }
   return true;
